@@ -2,8 +2,8 @@ from tkinter import *
 from PIL import ImageTk, Image 
 from tkinter import messagebox
 from tkinter.ttk import Combobox
-from settings import*
-import database as model
+from src.settings import*
+import src.database as model
 
 
 root = Tk()
